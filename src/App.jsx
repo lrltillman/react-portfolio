@@ -13,18 +13,12 @@ import Portfolio from './components/Portfolio'
 export default function App() {
 
 
-
-  // below is JSX, NOT html. 
-
   return (
 
     <>
 
       <BrowserRouter>
         <Header />
-
-
-
         <Routes>
           <Route path="/" element={<AboutPage />} />
           <Route path="/resume" element={<Resume />} />
@@ -33,10 +27,7 @@ export default function App() {
           <Route path="*" element={<NotFound />} />
 
         </Routes>
-
-
-
-        <Footer company="Footer Inc." />
+        <Footer />
 
       </BrowserRouter>
 
