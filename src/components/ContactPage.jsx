@@ -56,7 +56,7 @@ export default function ContactPage(props) {
         }
 
         if (!contactInfo.question) {
-            question = "Question value is required!"
+            question = "Message value is required!"
         }
 
         setErrMessage({ name, email, question })
